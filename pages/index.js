@@ -3,6 +3,7 @@ import { Search } from '@mui/icons-material';
 import DownloadIcon from '@mui/icons-material/Download';
 import Sidebar from '../components/Sidebar';
 import FilterSection from '../components/FilterSection'; // Importamos los filtros
+import Montos from '../components/Montos'; 
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
 
         {/* Sección de Filtros (Apartada) */}
         <FilterSection />
+        
+        {/* Sección de Montos */}
+        <Montos />
 
         {/* Resultados de búsqueda y botón Descargar Excel */}
         <Paper elevation={3} sx={{ p: 3 }}>

@@ -8,15 +8,15 @@
         "start": "next start"
     },
     "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "@mui/icons-material": "^6.4.4",
+        "@mui/material": "^6.4.4",
+        "chart.js": "latest",
         "next": "latest",
         "react": "latest",
-        "react-dom": "latest",
-        "@mui/material": "latest",
-        "@mui/icons-material": "latest",
-        "@emotion/react": "latest",
-        "@emotion/styled": "latest",
-        "chart.js": "latest",
-        "react-chartjs-2": "latest"
+        "react-chartjs-2": "latest",
+        "react-dom": "latest"
     },
     "devDependencies": {
         "eslint": "latest",

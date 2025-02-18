@@ -1,16 +1,25 @@
 {
-  "name": "nextjs-migrated-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
-  }
+    "name": "nextjs-migrated-frontend",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "@mui/material": "latest",
+        "@mui/icons-material": "latest",
+        "@emotion/react": "latest",
+        "@emotion/styled": "latest",
+        "chart.js": "latest",
+        "react-chartjs-2": "latest"
+    },
+    "devDependencies": {
+        "eslint": "latest",
+        "eslint-config-next": "latest"
+    }
 }
